@@ -56,7 +56,7 @@ def upload_to_drive(file_path: str, drive_folder_id: str) -> str:
     ).execute()
 
     # Return downloadable link
-    link = f'https://drive.google.com/uc?id={file_id}&export=download'
+    link = f'https://drive.google.com/file/d/{file_id}/view?usp=sharing'
     return link
 
 @app.post("/translate-speech")
