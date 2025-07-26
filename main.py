@@ -15,7 +15,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Google Drive settings
 SCOPES = ['https://www.googleapis.com/auth/drive.file']
-GOOGLE_DRIVE_FOLDER_ID = "your_drive_folder_id_here"  # <-- Put your actual folder ID here
+GOOGLE_DRIVE_FOLDER_ID = "1tTBqMul2NwJcZUMPhQhapbvbcFj7rmXm"
 
 class TranslationRequest(BaseModel):
     text: str
